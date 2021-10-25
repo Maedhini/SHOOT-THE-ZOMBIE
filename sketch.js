@@ -221,7 +221,7 @@ function enemy(){
     zombie.scale = 0.15
     zombie.velocityX = -3
     zombie.debug= true
-    zombie.setCollider("rectangle",0,0,400,600)
+    zombie.setCollider("rectangle",0,0,400,800)
    
     zombie.lifetime = 400
    zombieGroup.add(zombie)
