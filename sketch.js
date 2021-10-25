@@ -142,6 +142,7 @@ if(zombieGroup.isTouching(bulletGroup)){
         if(bulletGroup.isTouching(zombieGroup)){
         //destroy zombie
         zombieGroup[i].destroy()
+          bulletGroup.destroyEach();
        
       } 
   
