@@ -201,7 +201,7 @@ else if(gameState == "bullet"){
  
   textSize(50)
   fill("yellow")
-  text("You ran out of bullets!!!",470,410)
+  text("You Win!!!",470,410)
   zombieGroup.destroyEach();
   player.destroy();
   bulletGroup.destroyEach();
