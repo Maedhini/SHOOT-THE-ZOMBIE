@@ -43,7 +43,7 @@ bg.scale = 1.1
 player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
  player.addImage(shooterImg)
    player.scale = 0.3
-   player.debug = true
+   player.debug = false
    player.setCollider("rectangle",0,0,300,300)
 
 
